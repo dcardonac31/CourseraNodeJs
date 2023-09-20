@@ -5,7 +5,7 @@ let server = http.createServer(function(request, response){
         "Greeting": "Hello World!!!"
     }
 
-    // Conver JSON object to string
+    // Convert JSON object to string
     let jsonString = JSON.stringify(bodyJson);
 
     //Response text/plain
